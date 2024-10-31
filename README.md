@@ -93,26 +93,28 @@ To enhance usability, add buttons to each sheet to run specific functions:
 - If teams aren’t displaying as expected, check that the required cells (e.g., D2 for team count, F2 for rating precision) are correctly populated on the Team Maker sheet.
 - Ensure each player has a name and rating in the Players sheet and that team-related fields in the Team Maker sheet have valid data.
 
-## Example (copy it to 'Players' sheet):
-Include in List    Player Name       Full Rating    Rating
-TRUE               Adam Green        20             5.00
-TRUE               Alex Brown        19             4.75
-TRUE               Chris White       18             4.50
-TRUE               David Black       17             4.25
-TRUE               Ethan Blue        20             5.00
-TRUE               Frank Silver      16             4.00
-TRUE               George Red        15             3.75
-TRUE               Henry Gold        19             4.75
-TRUE               Ivan Gray         18             4.50
-TRUE               Jack Orange       17             4.25
-TRUE               Kevin Yellow      14             3.50
-TRUE               Liam Purple       16             4.00
-TRUE               Mike Cyan         13             3.25
-TRUE               Nick Violet       12             3.00
-TRUE               Oscar Pink        15             3.75
-TRUE               Peter Brown       18             4.50
-TRUE               Quinn White       19             4.75
-TRUE               Ron Silver        17             4.25
-TRUE               Sam Black         16             4.00
-TRUE               Tom Red           14             3.50
-FALSE              Dan Brown         12             3.00
+### Example (copy it to the "Players" sheet):
+
+| Include in List | Player Name  | Full Rating | Rating |
+|-----------------|--------------|-------------|--------|
+| TRUE            | Adam Green   | 20          | 5.00   |
+| TRUE            | Alex Brown   | 19          | 4.75   |
+| TRUE            | Chris White  | 18          | 4.50   |
+| TRUE            | David Black  | 17          | 4.25   |
+| TRUE            | Ethan Blue   | 20          | 5.00   |
+| TRUE            | Frank Silver | 16          | 4.00   |
+| TRUE            | George Red   | 15          | 3.75   |
+| TRUE            | Henry Gold   | 19          | 4.75   |
+| TRUE            | Ivan Gray    | 18          | 4.50   |
+| TRUE            | Jack Orange  | 17          | 4.25   |
+| TRUE            | Kevin Yellow | 14          | 3.50   |
+| TRUE            | Liam Purple  | 16          | 4.00   |
+| TRUE            | Mike Cyan    | 13          | 3.25   |
+| TRUE            | Nick Violet  | 12          | 3.00   |
+| TRUE            | Oscar Pink   | 15          | 3.75   |
+| TRUE            | Peter Brown  | 18          | 4.50   |
+| TRUE            | Quinn White  | 19          | 4.75   |
+| TRUE            | Ron Silver   | 17          | 4.25   |
+| TRUE            | Sam Black    | 16          | 4.00   |
+| TRUE            | Tom Red      | 14          | 3.50   |
+| FALSE           | Dan Brown    | 12          | 3.00   |
