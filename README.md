@@ -31,7 +31,8 @@ This Google Apps Script automates the selection, team-making, and listing of pla
 
 3. Add the Script
    - In the Google Sheets document, go to Extensions > Apps Script.
-   - Delete any existing code, then copy and paste the code from this repository into the editor.
+   - Delete any existing code, then inside this repository copy and paste the code from TeamMake.js file into the editor.
+   - Additional: copy and paste the code from Additional.js file in order to use additional buttons for your own convenience.
 
 4. Save and Name the Script Project
    - Name the script project (e.g., "Team Maker Script").
@@ -96,7 +97,6 @@ To enhance usability, add buttons to each sheet to run specific functions:
 
 
 ## Troubleshooting
-
 - If teams aren’t displaying as expected, check that the required cells (e.g., D2 for team count, F2 for rating precision) are correctly populated on the Team Maker sheet.
 - Ensure each player has a name and rating in the Players sheet and that team-related fields in the Team Maker sheet have valid data.
 
