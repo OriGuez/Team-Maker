@@ -31,7 +31,8 @@ This Google Apps Script automates the selection, team-making, and listing of pla
 
 3. Add the Script
    - In the Google Sheets document, go to Extensions > Apps Script.
-   - Delete any existing code, then copy and paste the code from this repository into the editor.
+   - Delete any existing code, then inside this repository copy and paste the code from TeamMake.js file into the editor.
+   - Additional: copy and paste the code from Additional.js file in order to use additional buttons for your own convenience.
 
 4. Save and Name the Script Project
    - Name the script project (e.g., "Team Maker Script").
@@ -60,10 +61,6 @@ To enhance usability, add buttons to each sheet to run specific functions:
 - **Checkboxes**
   - Add checkboxes in column **A** beside each player name to indicate selected players.
 
-- **Reset List** Button
-  - Create a button labeled "Reset List" using Insert > Drawing.
-  - Assign the `resetCheckboxes` function to this button.
-
 #### In the Final List Sheet
 - **Print Teams** Button
   - Create a button labeled "Print Teams" using Insert > Drawing.
@@ -84,12 +81,22 @@ To enhance usability, add buttons to each sheet to run specific functions:
    - Once teams are generated, they’ll appear in the Team Maker sheet.
    - To copy final team lists to the Final List sheet, click the **Print Teams** button.
 
-4. **Additional Controls**:
-   - **Reset Checkboxes**: Click the **Reset List** button in the Players sheet to clear all selections.
-   - **Adjust Rating Precision**: Use increment and decrement functions to adjust the rating precision in cell F2 of the Team Maker sheet.
+4. **Additional Controls** (see the third bulletpoint in level 3 of installation):
+    #the code of the next functions is in "Additional.js" file.
+  - **Reset List** Button
+  - Create a button labeled "Reset List" using Insert > Drawing.
+  - Assign the `resetCheckboxes` function to this button.
+  - Click the **Reset List** button in the Players sheet to clear all selections.
+
+  - **Adjust Rating Precision**
+  - Create a button shaped as a plus using Insert > Drawing.
+  - Assign the `increment` function to this button.
+  - Create a button shaped as a minus using Insert > Drawing.
+  - Assign the `decrement` function to this button.
+  - Use increment and decrement functions to adjust the rating precision in cell F2 of the Team Maker sheet.
+
 
 ## Troubleshooting
-
 - If teams aren’t displaying as expected, check that the required cells (e.g., D2 for team count, F2 for rating precision) are correctly populated on the Team Maker sheet.
 - Ensure each player has a name and rating in the Players sheet and that team-related fields in the Team Maker sheet have valid data.
 
