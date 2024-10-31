@@ -60,10 +60,6 @@ To enhance usability, add buttons to each sheet to run specific functions:
 - **Checkboxes**
   - Add checkboxes in column **A** beside each player name to indicate selected players.
 
-- **Reset List** Button
-  - Create a button labeled "Reset List" using Insert > Drawing.
-  - Assign the `resetCheckboxes` function to this button.
-
 #### In the Final List Sheet
 - **Print Teams** Button
   - Create a button labeled "Print Teams" using Insert > Drawing.
@@ -84,9 +80,20 @@ To enhance usability, add buttons to each sheet to run specific functions:
    - Once teams are generated, they’ll appear in the Team Maker sheet.
    - To copy final team lists to the Final List sheet, click the **Print Teams** button.
 
-4. **Additional Controls**:
-   - **Reset Checkboxes**: Click the **Reset List** button in the Players sheet to clear all selections.
-   - **Adjust Rating Precision**: Use increment and decrement functions to adjust the rating precision in cell F2 of the Team Maker sheet.
+4. **Additional Controls** (see the third bulletpoint in level 3 of installation):
+    #the code of the next functions is in "Additional.js" file.
+  - **Reset List** Button
+  - Create a button labeled "Reset List" using Insert > Drawing.
+  - Assign the `resetCheckboxes` function to this button.
+  - Click the **Reset List** button in the Players sheet to clear all selections.
+
+  - **Adjust Rating Precision**
+  - Create a button shaped as a plus using Insert > Drawing.
+  - Assign the `increment` function to this button.
+  - Create a button shaped as a minus using Insert > Drawing.
+  - Assign the `decrement` function to this button.
+  - Use increment and decrement functions to adjust the rating precision in cell F2 of the Team Maker sheet.
+
 
 ## Troubleshooting
 
