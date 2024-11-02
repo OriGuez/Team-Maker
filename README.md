@@ -1,4 +1,4 @@
-# Team Maker Script for Google Sheets
+# Team Maker Script
 
 This Google Apps Script automates the selection, team-making, and listing of players in a Google Sheets document. Designed to assist in organizing teams based on player ratings, this script operates across three sheets in a Google Sheets document: Players, Team Maker, and Final List.
 
